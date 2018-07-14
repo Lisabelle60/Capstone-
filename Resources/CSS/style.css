@@ -49,6 +49,7 @@ nav span {
   flex-wrap: nowrap;
   background-color: teal;
   font-family: "Verdana", sans-serif;
+  margin: 32px 24px;
 }
 
 .jumbotron .box {
@@ -126,8 +127,7 @@ nav span {
 }
 
 .thesis {
-  text-align: center;
-  border: 1px teal solid;
+
 }
 
 .thesis video {
@@ -138,25 +138,27 @@ nav span {
 /*Course Gallery*/
 
 .gallerymain {
-
+  text-align: center;
+  background-color: #A6C0C5;
+  border: 1px teal solid;
 }
 
-.Gallery-table {
-
+.gallerymain .gallery {
+    border: 1px solid #A6C0C5;
+    margin: 16px;
+    height: 280px;
 }
 
-.gallery-box {
-
+.gallerymain .gallery:hover {
+    border: 1px solid teal;
 }
 
-.gallery:hover {
-
+.gallerymain .desc {
+  text-align: left;
+  padding: 0px 24px 0px 16px;
 }
 
-.gallery img {
-}
-
-.responsive {
+.gallerymain .responsive {
     padding: 0 6px;
     float: left;
     width: 24.99999%;
