@@ -103,15 +103,14 @@ nav span {
 
 .container .column {
   flex-direction: column;
-  margin: 32px;
 }
 
 .container .story  {
   padding: 16px;
   font-size: 30px;
   width: auto;
-  height: 150px;
-  margin: auto;
+  height: auto;
+  border: 1px solid #A6C0C5;
 }
 
 .story img {
@@ -124,6 +123,15 @@ nav span {
 .story span {
   color: teal;
   font-weight: bold;
+}
+
+.story:hover {
+    border: 1px solid teal;
+}
+
+.story .desc {
+  text-align: left;
+  padding: 0px 24px 0px 16px;
 }
 
 .thesis {
@@ -141,6 +149,9 @@ nav span {
   text-align: center;
   background-color: #A6C0C5;
   border: 1px teal solid;
+  height: 700px;
+  padding: 32px 72px;
+  align-content: space-around;
 }
 
 .gallerymain .gallery {
