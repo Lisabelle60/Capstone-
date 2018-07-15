@@ -1,0 +1,34 @@
+/*Mobile site*/
+
+/*header*/
+
+.mobile {
+  height:64px;
+  width: auto;
+}
+
+.jumbotron {
+  background-color: teal;
+  padding:32px 16px;
+  width: auto;
+  height: auto;
+}
+
+.container {
+  margin: 32px 16px;
+}
+
+.container .story {
+  padding: 16px;
+  margin: 32px 0;
+}
+
+.thesis {
+  padding: 32px 0 24px 0;
+}
+
+footer {
+  padding: 16px;
+  height: auto;
+  width: auto;
+}

@@ -1,7 +1,5 @@
 <!DOCTYPE html>
 
-<!-- thank you for looking this over! I've been fighting it for days now! I realise that there will be many, many issues with this, however, I have put in comments where I am having the most issues. Thank you in advance for your feedback <3 :D -->
-
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
@@ -23,6 +21,13 @@
       </ul>
       </nav>
     </header>
+
+    <div class="mobile">
+      <img src=".\Resources\images\ic-logo.svg">
+      <img src=".\Resources\images\ic-on-campus.svg">
+      <img src=".\Resources\images\ic-online.svg">
+      <img src=".\Resources\images\ic-login.svg">
+    </div>
 
     <!--banner-->
 
@@ -46,6 +51,7 @@
       <p>"Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
       <p><strong>Emanuel, Sr Strategist at Hiring.com</strong></p>
     </div>
+
     <div class="column">
       <div class="story">
         <a target="_blank" href="information-orientation.jpg">
@@ -56,6 +62,7 @@
         <p>Tue 10/11 & Wed 10/12: 8am-3pm</p>
         <p><span><a target="_blank" href="read more">Read more</a></span></p></div>
       </div>
+
       <div class="story">
         <a target="_blank" href="information-campus.jpg">
         <img src=".\Resources\images\information-campus.jpg">
@@ -65,6 +72,7 @@
         <p>Find which campus is close by you</p>
         <p><span><a target="_blank" href="read more">Read more</a></span></p></div>
       </div>
+
       <div class="story">
         <a target="_blank" href="information-guest-lecture.jpg">
         <img src=".\Resources\images\information-guest-lecture.jpg">
@@ -79,11 +87,9 @@
 
     <!--Gallery-->
 
-    <!-- this area is giving me some problems as the main div 'gallerymain' isn't carrying through to the end of the container. How is best to proceed?-->
-
-<div class="gallerymain">
+  <div class="gallerymain">
         <h2>Start Learning</h2>
-        <div class="responsive">
+<div class="responsive">
   <div class="gallery">
     <a target="_blank" href="course-software.jpg">
       <img src=".\Resources\images\course-software.jpg" alt="Software Course" width="100%" height="auto">
@@ -93,7 +99,7 @@
       <p>COURSES</p>
       <p>Web Develoment, Mobile Development, iOT, APIs</p></div>
   </div>
-</div>
+  </div>
 
 <div class="responsive">
   <div class="gallery">
@@ -105,7 +111,7 @@
       <p>Courses</p>
       <p>Imaging & Design, Web Design, Motion Graphics & Visual Effects, Computer Animation</p></div>
   </div>
-</div>
+  </div>
 
 <div class="responsive">
   <div class="gallery">
@@ -117,7 +123,7 @@
       <p>COURSES</p>
       <p>User Experience Design, User Research, Visual Design</p></div>
   </div>
-</div>
+  </div>
 
 <div class="responsive">
   <div class="gallery">
@@ -129,7 +135,7 @@
       <p>COURSES</p>
       <p>Data Science, Big Data, SQL, Data Visualization</p></div>
   </div>
-</div>
+  </div>
 
 <div class="responsive">
   <div class="gallery">
@@ -141,7 +147,8 @@
         <p>COURSES</p>
         <p>Product Development, Business Development, Startup</p></div>
     </div>
-</div>
+    </div>
+
 
 <div class="responsive">
   <div class="gallery">
@@ -154,28 +161,42 @@
         <p>Product Development, Business Development, Startup</p></div>
     </div>
   </div>
+
 </div>
 </div>
 
 
     <!--Thesis Video Section-->
 
-    <!--I have aboslutely no idea what is going on here!! The word 'thesis' has been pulled up next to the gallery images and I can't get anything to work the way I want it to. I have been fighting with this for days and can't seem to find a solution anywhere! Please help!-->
+    <div>
+      <h2>Thesis Exhibition</h2>
+    <div>
 
     <div class="thesis">
-      <h2>Thesis Exhibit</h2>
-      <video autoplay src=".\Resources\videos\thesis.mp4"></video>
+      <div class="box">
+        <video autoplay loop src=".\Resources\videos\thesis.mp4"></video>
         <h3>Reimagine urban</h3>
         <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-</div>
-        <img src=".\Resources\images\thesis-fisma.jpg">
-        <h3>Fisma: Design and Prototype</h3>
-        <p>Designer showcase of new prototype product</p>
+    </div>
 
+    <div class="column">
+    <div class="story">
+        <img src=".\Resources\images\thesis-fisma.jpg">
+        <div class="desc">
+        <h3>Fisma: Design and Prototype</h3>
+        <p>Designer showcase of new prototype product</p></div>
+      </div>
+
+    <div class="story">
         <img src=".\Resources\images\thesis-now-and-then.jpg">
+        <div class="desc">
         <h3>Now and then</h3>
-        <p>Research study about New York</p>
-</div>
+        <p>Research study about New York</p></div>
+      </div>
+    </div>
+  </div>
+
+
       <footer>
         <p>© 2016 Colmar Academy. All rights reserved</p>
         <p>Terms Privacy</p>
